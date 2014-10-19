@@ -24,25 +24,38 @@ The argument must be a valid RegExp.
 
 ## API
 
-liveRegExp Object Properties
---------------------
+###liveRegExp Object Properties
+
 
 **first** : ```RegExp```. Return the first generated step-RegExp.
+
 **flags** : ```String```. A lowercase String of all flags. Ex : ```gi```.
+
 **global** : ```Boolean```. Is the ```g``` flag present.
+
 **ignoreCase** : ```Boolean```. Is the ```i``` flag present.
+
 **last** : ```RegExp```. The last and final generated step-RegExp.
+
 **length** : ```Number```. The number of step-RegExps
+
 **multiline** : ```Boolean```. Is the ```m``` flag present.
+
 **original** : ```RegExp```. The original RegExp.
+
 **source** : ```String```. The last RegExp's source.
+
 **sourceSteps** : ```Array```. An Array of the step-RegExps' sources (It's an Array of Strings)
+
 **steps** : ```steps```. An array of all the step-RegExps
+
 **sticky** : ```Boolean```. Is the ```y``` flag present and supported.
+
 **unicode** : ```Boolean```. Is the ```u``` flag present and supported.
 
-liveRegExp Object Methods
---------------------------
+
+### liveRegExp Object Methods
+
 
 
 **haveSameFlagsAs** :
@@ -68,12 +81,15 @@ Array livereg.match(String str)
 Return an ```Array``` of ```PartialMatch Object``` sorted by index. Return ```null``` if there're no results.
 
 
-PartialMatch Object Properties
------------------------------
+### PartialMatch Object Properties
+
 
 **data** : ```String```. The data that was partially (or fully) matched)
+
 **index** : ```Number```. The index of the match, starting at 0.
+
 **rate** : ```Number```. The percentage of steps that was accomplished.
+
 **stepIndex** : ```Number```. The index of the step that matched the result.
 
 
