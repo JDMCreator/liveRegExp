@@ -1,7 +1,7 @@
 liveRegExp.js
 =============
 
-__Version 0.9 ALPHA 1__
+__Version 0.9 ALPHA 2__
 
 liveRegExp.js allows your RegExp to partially match string, using step-RegExps.
 
